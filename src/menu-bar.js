@@ -11,7 +11,7 @@ function toggleMenu() {
 }
 
 //Слушатели
-// 1. Кнопка бургера
+// 1. Кнопка бургера / закрытия меню
 burgerBtn.addEventListener("click", toggleMenu);
 
 // 2. Сворачивание меню после клика на ссылке
