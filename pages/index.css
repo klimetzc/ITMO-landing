@@ -120,3 +120,10 @@
 @import url(../blocks/projects/__next/projects__next.css);
 @import url(../blocks/projects/__card-link/projects__card-lin.css);
 @import url(../blocks/projects/__card-text/projects__card-text.css);
+/* team */
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__wrapper/team__wrapper.css);
+@import url(../blocks/team/__card/team__card.css);
+@import url(../blocks/team/__card-image/team__card-image.css);
+@import url(../blocks/team/__card-name/team__card-name.css);
+@import url(../blocks/team/__card-degree/team__card-degree.css);
