@@ -1,0 +1,23 @@
+.publications__card-img {
+  width: 256px;
+  height: 160px;
+  margin-bottom: 12px;
+  transition: height 0.3s linear;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .publications__card-img {
+    width: 291px;
+    height: 158px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .publications__card-img {
+    width: 310px;
+    height: 223px;
+  }
+}

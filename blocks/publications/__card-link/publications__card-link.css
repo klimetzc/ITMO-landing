@@ -1,0 +1,27 @@
+.publications__card-link {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  color: var(--font-light);
+  text-decoration: none;
+  margin: 0 0 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.publications__card-link::after {
+  content: '';
+  display: inline-block;
+  background-image: url(../../../images/publications/publications-arrow-right.svg);
+  height: 24px;
+  width: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .publications__card-link {
+    font-size: 18px;
+    line-height: 30px;
+    gap: 12px;
+    margin: 0 0 0 20px;
+  }
+}

@@ -1,0 +1,24 @@
+.form__description{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+  padding-bottom: 23px;
+}
+
+@media screen and (min-width: 600px) {
+  .form__description{
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 37px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .form__description{
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 900px;
+    padding-bottom: 60px;
+  }
+}

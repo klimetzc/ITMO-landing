@@ -1,0 +1,9 @@
+.lab__texts{
+
+}
+
+@media screen and (min-width: 600px) {
+  .lab__texts{
+    /* max-width: 50%; */
+  }
+}

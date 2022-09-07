@@ -1,0 +1,21 @@
+.footer__link-header {
+  display: block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 8px;
+  margin: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__link-header{
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .footer__link-header{
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

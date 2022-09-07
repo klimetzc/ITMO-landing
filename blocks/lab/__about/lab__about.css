@@ -1,0 +1,22 @@
+.lab__about{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1146px;
+}
+
+@media screen and (min-width: 600px) {
+  .lab__about{
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .lab__about{
+    padding-bottom: 80px;
+  }
+}

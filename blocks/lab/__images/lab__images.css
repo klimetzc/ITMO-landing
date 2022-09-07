@@ -1,0 +1,20 @@
+.lab__images{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  align-self: stretch;
+  gap: 12px;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .lab__images{
+    order: 1;
+    /* max-width: 50%; */
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .lab__images{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

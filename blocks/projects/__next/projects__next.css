@@ -1,0 +1,13 @@
+.projects__next::after{
+  content: " ";
+  /* background-image: url(../../../images/arrow-right.svg);
+  width: 10px;
+  height: 1em;
+  font-size: 1rem;
+  font-weight: 600;
+  vertical-align: middle; */
+}
+.projects__next{
+  user-select: none;
+
+}

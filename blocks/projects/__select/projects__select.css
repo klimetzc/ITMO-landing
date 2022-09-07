@@ -1,0 +1,15 @@
+.projects__select{
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--emerald);
+  background-color: #001337;
+}
+
+@media screen and (min-width: 700px) {
+  .projects__select{
+    display: none;
+  }
+}

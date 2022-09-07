@@ -1,0 +1,25 @@
+.projects__option{
+  
+  text-align: center;
+  cursor: pointer;
+  visibility: hidden;
+  transition: .5s;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 700px) {
+  .projects__option{
+    visibility: visible;
+    border-bottom: 5px solid var(--blue);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .projects__option{
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,5 @@
+.projects__card_gos {
+  background-image: url(../../../../images/projects_gos.png);
+  background-color: var(--light-blue);
+  color: var(--blue);
+}

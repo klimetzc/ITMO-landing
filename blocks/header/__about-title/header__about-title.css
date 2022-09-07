@@ -1,0 +1,25 @@
+.header__about-title {
+  color: var(--font-light);
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 auto 12px auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header__about-title {
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__about-title {
+    font-size: 36px;
+    line-height: 68px;
+  }
+}

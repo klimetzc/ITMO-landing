@@ -1,0 +1,10 @@
+.projects__radio-btn {
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  .projects__radio-btn:checked + .projects__option {
+  border-bottom: 5px solid var(--emerald);
+  font-weight: 600;
+}
+}

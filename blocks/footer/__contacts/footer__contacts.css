@@ -1,0 +1,8 @@
+.footer__contacts{
+  grid-area: contacts;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  gap: 8px;
+}

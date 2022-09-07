@@ -1,0 +1,6 @@
+.about__news-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 95px 80px 93px;
+}

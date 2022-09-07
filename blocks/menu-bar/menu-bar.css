@@ -1,0 +1,22 @@
+.menu-bar {
+  position: relative;
+  height: 44px;
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-bar {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .menu-bar {
+    height: 80px;
+    gap: 135px;
+  }
+}

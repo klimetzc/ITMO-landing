@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) {
+  .education__content {
+    min-width: 340px;
+    display: flex;
+    flex-direction: column;
+  }
+}

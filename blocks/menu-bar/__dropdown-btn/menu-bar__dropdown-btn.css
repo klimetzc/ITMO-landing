@@ -1,0 +1,6 @@
+.menu-bar__dropdown-btn {
+  border: none;
+  appearance: none;
+  background-color: inherit;
+  cursor: pointer;
+}

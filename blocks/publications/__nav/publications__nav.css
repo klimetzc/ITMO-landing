@@ -1,0 +1,9 @@
+.publications__nav {
+  margin-top: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .publications__nav {
+    margin-top: 21px;
+  }
+}

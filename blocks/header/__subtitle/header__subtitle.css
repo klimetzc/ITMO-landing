@@ -1,0 +1,25 @@
+.header__subtitle {
+  color: var(--font-light);
+  position: relative;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  margin: 0 0 50px 0;
+  width: 288px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__subtitle {
+    width: 400px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 40px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__subtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,24 @@
+.publications__card-bar {
+  height: 44px;
+  background-color: var(--emerald);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .publications__card-bar {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .publications__card-bar {
+    height: 0;
+    transition: height 0.3s linear;
+  }
+}

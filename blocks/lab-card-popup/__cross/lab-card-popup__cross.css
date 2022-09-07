@@ -1,0 +1,14 @@
+.lab-card-popup__cross{
+  grid-area: cross;
+  background-color: transparent;
+  background-image: url("../../../images/close.svg");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  justify-self: end;
+  cursor: pointer;
+  
+}

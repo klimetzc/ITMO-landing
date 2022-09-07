@@ -1,0 +1,44 @@
+.education__tab-label {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 12px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: var(--font-light);
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+}
+
+@media screen and (min-width: 768px) {
+  .education__tab-label {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .education__tab-label {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 15px;
+  }
+}
+
+#education__tab-input-asp:not(:checked)
+  ~ .education__tab-btn
+  label[for='education__tab-input-asp'] {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  border-radius: 5px;
+}
+#education__tab-input-mag:not(:checked)
+  ~ .education__tab-btn
+  label[for='education__tab-input-mag'] {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  border-radius: 5px;
+}

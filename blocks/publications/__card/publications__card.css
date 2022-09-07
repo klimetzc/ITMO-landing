@@ -1,0 +1,37 @@
+.publications__card {
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 288px;
+  height: 466px;
+}
+
+@media screen and (min-width: 768px) {
+  .publications__card {
+    width: 330px !important;
+    height: 515px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .publications__card {
+    width: 348px !important;
+    height: 548px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .publications__card:hover .publications__card-bar {
+    height: 70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .publications__card:hover .publications__card-img {
+    height: 168px;
+  }
+
+  .publications__card:hover .publications__card-content {
+    padding-bottom: 25px;
+  }
+}

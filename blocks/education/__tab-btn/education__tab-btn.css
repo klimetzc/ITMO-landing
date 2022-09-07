@@ -1,0 +1,13 @@
+.education__tab-btn {
+  font-size: 0;
+  border: 1px solid var(--light-blue);
+  border-radius: 5px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .education__tab-btn {
+    max-width: 540px;
+  }
+}

@@ -1,0 +1,10 @@
+.menu-bar_opened {
+  justify-content: flex-start;
+  padding-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-bar_opened {
+    padding-left: 40px;
+  }
+}

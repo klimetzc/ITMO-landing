@@ -1,0 +1,14 @@
+.lab-card-popup__header{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  grid-area: header;
+}
+
+@media screen and (min-width: 1000px) {
+  .lab-card-popup__header{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

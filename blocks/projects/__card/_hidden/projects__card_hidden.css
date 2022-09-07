@@ -1,0 +1,5 @@
+.projects__card_hidden{
+  /* visibility: hidden; */
+  display: none;
+  background-color: yellow;
+}

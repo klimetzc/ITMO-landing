@@ -1,0 +1,20 @@
+.footer__description{
+  grid-area: description;
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__description{
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .footer__description{
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

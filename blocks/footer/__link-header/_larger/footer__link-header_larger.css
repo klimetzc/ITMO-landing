@@ -1,0 +1,12 @@
+.footer__link-header_larger{
+  font-size: 14px;
+  line-height: 19px;
+  margin: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .footer__link-header_larger{
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

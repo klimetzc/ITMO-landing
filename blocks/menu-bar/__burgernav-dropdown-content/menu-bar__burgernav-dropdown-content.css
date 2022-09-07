@@ -1,0 +1,7 @@
+.menu-bar__burgernav-dropdown-content {
+  visibility: hidden;
+  background-color: inherit;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}

@@ -1,0 +1,14 @@
+.projects__nav{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  gap: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .projects__nav{
+    padding-top: 35px;
+  }
+}

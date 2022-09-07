@@ -1,0 +1,19 @@
+.menu-bar__dropdown-link {
+  border: none;
+  appearance: none;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 2px 0 2px 8px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--font-light);
+  background-color: var(--dark-blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu-bar__dropdown-link:hover {
+  background-color: var(--hovered-blue);
+}

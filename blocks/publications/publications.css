@@ -1,0 +1,9 @@
+.publications {
+  background-color: var(--light-blue);
+  padding: 40px 0 40px 0;
+  position: relative;
+}
+
+.publications__pagination {
+  bottom: 90px;
+}

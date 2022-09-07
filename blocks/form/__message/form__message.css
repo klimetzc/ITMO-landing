@@ -1,0 +1,13 @@
+.form__message {
+  vertical-align: top;
+  text-align: start;
+  resize: none;
+  min-height: 12em;
+}
+
+@media screen and (min-width: 700px) {
+  .form__message{
+    grid-area: message;
+    min-height: 2em;
+  }
+}

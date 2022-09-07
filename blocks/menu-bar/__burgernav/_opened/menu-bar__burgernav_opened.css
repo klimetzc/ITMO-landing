@@ -1,0 +1,10 @@
+.menu-bar__burgernav_opened {
+  visibility: visible;
+  height: 492px;
+}
+
+@media screen and (min-width: 1280px) {
+  .menu-bar__burgernav_opened {
+    visibility: hidden;
+  }
+}

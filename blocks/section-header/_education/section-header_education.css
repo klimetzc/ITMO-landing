@@ -1,0 +1,9 @@
+.section-header_education {
+  margin: 0 0 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .section-header_education {
+    margin: 0 0 30px 0;
+  }
+}

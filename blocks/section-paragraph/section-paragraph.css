@@ -1,0 +1,20 @@
+.section-paragraph {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .section-paragraph {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,19 @@
+.form__content{
+  display: grid;
+  /* grid-template-columns: none; */
+  gap: 12px;
+  max-width: 1110px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 700px) {
+  .form__content{
+    grid-template-areas: 
+      'name sername message'
+      'phone email message'
+      '. submit .';
+    row-gap: 20px;
+    column-gap: 30px;
+  }
+}

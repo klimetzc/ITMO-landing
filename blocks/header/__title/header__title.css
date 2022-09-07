@@ -1,0 +1,18 @@
+.header__title {
+  color: var(--font-light);
+  position: relative;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+  width: 256px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__title {
+    width: 289px;
+    font-size: 54px;
+    line-height: 68px;
+    margin: 0 0 14px 0;
+  }
+}

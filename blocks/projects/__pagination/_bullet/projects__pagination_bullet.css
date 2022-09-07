@@ -1,0 +1,7 @@
+.projects__pagination_bullet{
+  background: none;
+  background-image: none !important;
+  background-color: none;
+  align-self: center;
+  height: 100%;
+}

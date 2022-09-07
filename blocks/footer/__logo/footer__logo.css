@@ -1,0 +1,16 @@
+.footer__logo{
+  display: block;
+  width: 98px;
+  height: 33px;
+  background-image: url(../../../images/menu-bar-logo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__logo{
+    width: 150px;
+    height: 54px;
+  }
+}

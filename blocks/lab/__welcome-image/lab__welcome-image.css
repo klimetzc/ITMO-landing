@@ -1,0 +1,18 @@
+.lab__welcome-image{
+  /* padding-bottom: 20px; */
+  display: block;
+  margin: 0;
+  width: 100%;
+  align-self: stretch;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.lab__welcome-image:nth-of-type(2){
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .lab__welcome-image:nth-of-type(2){
+    display: block;
+  }
+}

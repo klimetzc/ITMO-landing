@@ -1,0 +1,20 @@
+.lab-card-popup{
+  position: fixed;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 19, 55, 0.6);
+  opacity: 0.6;
+  z-index: 5;
+  padding: 16px;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: .4s;
+  box-sizing: border-box;
+}

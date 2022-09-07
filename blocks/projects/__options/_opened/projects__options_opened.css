@@ -1,0 +1,8 @@
+.projects__options_opened{
+  max-height: 100vh;
+
+}
+
+.projects__options_opened .projects__option{
+  visibility: visible;
+}

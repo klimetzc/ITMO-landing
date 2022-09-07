@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+  .publications__slider {
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .publications__slider {
+    max-width: 1110px;
+  }
+}

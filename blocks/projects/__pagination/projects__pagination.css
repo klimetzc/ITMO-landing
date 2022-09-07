@@ -1,0 +1,12 @@
+.projects__pagination{
+  position: static;
+  /* max-width: 50%; */
+  width: auto !important;
+  font-size: 18px;
+  display: flex;
+  align-items: flex-start;
+  min-height: 40px;
+}
+.swiper-pagination-bullet{
+  background-color: white;
+}

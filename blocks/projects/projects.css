@@ -1,0 +1,19 @@
+.projects {
+  color: var(--font-light);
+  padding: 40px 16px;
+  /* box-sizing: border-box; */
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+@media screen and (min-width: 700px) {
+  .projects{
+    padding: 60px 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .projects {
+    padding: 80px 40px;
+  }
+}

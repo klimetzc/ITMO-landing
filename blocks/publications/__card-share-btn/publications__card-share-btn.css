@@ -1,0 +1,17 @@
+.publications__card-share-btn {
+  appearance: none;
+  background: center no-repeat
+    url(../../../images/publications/publications-sm-btn.svg);
+  background-size: 21px 21px;
+  width: 21px;
+  height: 21px;
+  border: none;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .publications__card-share-btn {
+    margin-right: 22px;
+  }
+}

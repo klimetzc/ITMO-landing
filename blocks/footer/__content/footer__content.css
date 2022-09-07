@@ -1,0 +1,27 @@
+.footer__content{
+  display: grid;
+  grid-template-areas: 'logo       info'
+  'about      dev'
+  'contacts   contacts'
+  'links      links'
+  'powered-by powered-by';
+  color: white;
+  /* padding: 40px 16px 33px; */
+  grid-template-columns: 50%;
+  row-gap: 40px;
+  max-width: 1110px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__content {
+    grid-template-areas:
+      'logo        logo       logo       logo'
+      'info        info       info       info'
+      'description about      dev        contacts'
+      'powered-by  powered-by powered-by links';
+    row-gap: 30px;
+    column-gap: 40px;
+    grid-template-columns: 30% 1fr 1fr 1fr;
+  }
+}

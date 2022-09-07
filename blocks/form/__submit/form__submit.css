@@ -1,0 +1,33 @@
+.form__submit{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  transition: .6s;
+  cursor: pointer;
+}
+.form__submit:hover{
+  border-color: #E0F0FF;
+  color: #E0F0FF;
+}
+
+@media screen and (min-width: 700px) {
+  .form__submit{
+    grid-area: submit;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 10px;
+    padding: 7px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .form__submit{
+    padding: 14px;
+  }
+}

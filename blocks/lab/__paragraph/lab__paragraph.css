@@ -1,0 +1,43 @@
+.lab__paragraph {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .lab__paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .lab__paragraph:nth-of-type(2) {
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .lab__paragraph {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .lab__paragraph:nth-of-type(2)::before{
+    content: " ";
+    color: transparent;
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: -50px;
+    background-image: url("../../../images/lab-graph.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+}

@@ -1,0 +1,11 @@
+.about__news-item {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 0;
+  margin: 0;
+  background-color: lightblue;
+  width: 360px;
+  height: 356px;
+  border-radius: 15px;
+}

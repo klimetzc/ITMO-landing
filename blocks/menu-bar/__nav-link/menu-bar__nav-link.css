@@ -1,0 +1,18 @@
+.menu-bar__nav-link {
+  width: 100px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  color: var(--font-light);
+  text-decoration: none;
+  box-sizing: content-box;
+}
+
+.menu-bar__nav-link:hover {
+  border-bottom: 3px solid var(--hovered-blue);
+  margin-bottom: -3px;
+}

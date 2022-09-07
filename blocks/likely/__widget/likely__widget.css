@@ -1,0 +1,7 @@
+.likely__widget {
+  background: none !important;
+}
+
+.likely__widget:hover {
+  background-color: var(--light-blue) !important;
+}

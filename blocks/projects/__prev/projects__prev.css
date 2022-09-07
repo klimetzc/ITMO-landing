@@ -1,0 +1,13 @@
+.projects__prev::after{
+  content: " ";
+  /* background-image: url(../../../images/arrow-left.svg);
+  background-size: cover;
+
+  width: 10px;
+  height: 10px;
+  font-size: 1rem; */
+}
+
+.projects__prev{
+  user-select: none;
+}

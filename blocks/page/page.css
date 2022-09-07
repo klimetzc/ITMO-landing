@@ -1,0 +1,19 @@
+.page {
+  --blue: #001337;
+  --dark-blue: #000d26;
+  --light-blue: #e0f0ff;
+  --hovered-blue: #009fac;
+  --font-light: #ffffff;
+  --font-dark: #001337;
+  --emerald: #009fac;
+
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: var(--blue);
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}

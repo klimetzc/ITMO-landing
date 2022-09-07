@@ -1,0 +1,9 @@
+.about__news-header {
+  color: rgba(0, 19, 55, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0px 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 159, 172, 1);
+}

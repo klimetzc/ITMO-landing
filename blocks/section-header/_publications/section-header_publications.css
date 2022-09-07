@@ -1,0 +1,15 @@
+.section-header_publications {
+  margin: 0 0 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .section-header_publications {
+    margin: 0 0 40px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-header_publications {
+    margin: 0 0 30px 0;
+  }
+}

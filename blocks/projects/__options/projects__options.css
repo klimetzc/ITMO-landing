@@ -1,0 +1,36 @@
+.projects__options{
+  user-select: none;
+  display: grid;
+  transition: max-height .5s;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #000D26;
+  max-height: 0px;
+  overflow: hidden;
+  z-index: 5;
+}
+
+
+@media screen and (min-width: 700px) {
+  .projects__options{
+    max-height: none;
+    background-color: var(--blue);
+    position: static;
+    width: 100%;
+    opacity: 1;
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 40px;
+  }
+  
+}
+
+@media screen and (min-width: 700px) {
+  .projects__options {
+    padding-bottom: 60px;
+  }
+
+}

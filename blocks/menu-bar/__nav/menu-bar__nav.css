@@ -1,0 +1,13 @@
+.menu-bar__nav {
+  list-style-type: none;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0;
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .menu-bar__nav {
+    display: flex;
+  }
+}

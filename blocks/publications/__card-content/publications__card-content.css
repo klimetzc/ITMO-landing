@@ -1,0 +1,16 @@
+.publications__card-content {
+  padding: 16px;
+  transition: padding 0.3s linear;
+}
+
+@media screen and (min-width: 768px) {
+  .publications__card-content {
+    padding: 19px 19px 10px 19px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .publications__card-content {
+    padding-bottom: 30px;
+  }
+}

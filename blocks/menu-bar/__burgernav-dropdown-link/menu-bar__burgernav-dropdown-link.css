@@ -1,0 +1,26 @@
+.menu-bar__burgernav-dropdown-link {
+  appearance: none;
+  border: none;
+  display: block;
+  background-color: inherit;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--font-light);
+  padding: 0;
+  height: 44px;
+  width: 100%;
+  cursor: pointer;
+  text-align: left;
+  padding: 0 0 0 16px;
+}
+
+.menu-bar__burgernav-dropdown-link:hover {
+  background-color: var(--blue);
+}
+
+@media screen and (min-width: 768px) {
+  .menu-bar__burgernav-dropdown-link {
+    padding-left: 40px;
+  }
+}

@@ -1,0 +1,11 @@
+.footer__links{
+  grid-area: links;
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__links{
+    justify-self: start;
+  }
+}

@@ -1,0 +1,4 @@
+.menu-bar__burgernav-dropdown-content_active {
+  visibility: visible;
+  max-height: 150px;
+}

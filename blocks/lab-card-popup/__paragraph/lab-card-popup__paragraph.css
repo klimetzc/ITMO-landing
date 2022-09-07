@@ -1,0 +1,20 @@
+.lab-card-popup__paragraph{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .lab-card-popup__paragraph{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .lab-card-popup__paragraph{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,29 @@
+.publications__card-article {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: var(--dark-blue);
+  width: 256px;
+  height: 128px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .publications__card-article {
+    -webkit-line-clamp: 7;
+    font-size: 14px;
+    line-height: 19px;
+    width: 290px;
+    height: 133px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .publications__card-article {
+    width: 308px;
+  }
+}

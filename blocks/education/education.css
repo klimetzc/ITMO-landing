@@ -1,0 +1,16 @@
+.education {
+  background-color: var(--emerald);
+  padding: 40px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .education {
+    padding: 60px 39px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .education {
+    padding: 80px 135px;
+  }
+}

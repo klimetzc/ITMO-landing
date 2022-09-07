@@ -1,0 +1,23 @@
+.footer__powered-by{
+  grid-area: powered-by;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  margin: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__powered-by{
+    text-align: left;
+    line-height: 20px;
+  }
+}
+
+@media screen and ( min-width: 1000px) {
+  .footer__powered-by{
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

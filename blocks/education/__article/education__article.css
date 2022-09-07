@@ -1,0 +1,32 @@
+.education__article {
+  display: none;
+  flex-direction: column;
+  align-content: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 16px;
+  color: var(--dark-blue);
+  margin-bottom: 16px;
+}
+
+#education__tab-input-asp:checked ~ .education__article-asp,
+#education__tab-input-mag:checked ~ .education__article-mag {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .education__article {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .education__article {
+    padding: 30px;
+    margin-bottom: 35px;
+  }
+}
